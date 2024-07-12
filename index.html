@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Youtube</title>
+
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+    rel="stylesheet">
+    <link rel="shorcut icon" href="images/logo-3.png" type="image/x-icon">
+</head>
+<body>
+
+<!-- Header -->
+
+    <div class="header">
+        <div class="logo-container">
+            <i class="ri-menu-line"></i>
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="images/logo-3.png" alt="">
+                </div>
+                <h1 id="logo-text">Youtube</h1>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search">
+            </form>
+            <button class="search"><i class="ri-search-line"></i></button>
+            <button class="mic"><i class="ri-mic-fill"></i></button>
+        </div>
+
+        <div class="profile-container">
+            <i class="ri-video-add-line"></i>
+            <i class="ri-notification-4-line"></i>
+            <div class="profile-div">
+                <img src="images/profile-pic.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+<!-- Side Bar -->
+
+    <div class="body-container">
+        <div class="sidemenu">
+            <div class="sidemenu-items">
+            <a href="#" class="sidemenu-item"><i class="ri-home-5-line"></i>Home</a>
+            <a href="#" class="sidemenu-item"><i class="ri-play-circle-line"></i>Shorts</a>
+            <a href="#" class="sidemenu-item"><i class="ri-rss-line"></i>Subscription</a>
+            <hr>
+            <a href="#" class="sidemenu-item"><h4 class="sidemenu-you">You</h4><i class="ri-arrow-right-s-line"></i></a>
+            <a href="#" class="sidemenu-item"><i class="ri-book-3-line"></i>Library</a>
+            <a href="#" class="sidemenu-item"><i class="ri-history-line"></i>History</a>
+            <a href="#" class="sidemenu-item"><i class="ri-video-line"></i>Your videos</a>
+            <a href="#" class="sidemenu-item"><i class="ri-time-line"></i>Watch later</a>
+            <a href="#" class="sidemenu-item"><i class="ri-thumb-up-line"></i>Liked videos</a>
+            <a href="#" class="sidemenu-item"><i class="ri-arrow-down-s-line"></i>Show more</a>
+            <hr>
+            <h4 class="exp">Explore</h4>
+            <a href="#" class="sidemenu-item"><i class="ri-fire-line"></i>Trending</a>
+            <a href="#" class="sidemenu-item"><i class="ri-music-line"></i>Music</a>
+            <a href="#" class="sidemenu-item"><i class="ri-newspaper-line"></i>News</a>
+            <a href="#" class="sidemenu-item"><i class="ri-gamepad-line"></i>Gaming</a>
+            <a href="#" class="sidemenu-item"><i class="ri-trophy-line"></i>Sports</a>
+            <hr>
+            <h4 class="exp">Subscribtion</h4>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-1.jpg" alt=""></div> NASA
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-2.jpg" alt=""></div> Valkyrae
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-3.jpg" alt=""></div> MM7Games
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-4.jpg" alt=""></div> Marvel
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-5.jpg" alt=""></div> The Tonight Show
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-6.jpg" alt=""></div> Nick DiGiovanni
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-7.jpg" alt=""></div> FIFA
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-8.jpg" alt=""></div> How Ridiculous
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-9.jpg" alt=""></div> FORMULA 1
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-10.jpg" alt=""></div> Ryan Trahan
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-11.jpg" alt=""></div> Beta Squad
+            </a>
+            <a href="#" class="sidemenu-item">
+                <div class="sidemenu-subs"><img src="images/subs/sub-12.jpg" alt=""></div> KSI
+            </a>
+            <a href="#" class="sidemenu-item"><i class="ri-arrow-down-s-line"></i>Show more</a>
+            <hr>
+            <a href="#" class="sidemenu-item"><i class="ri-settings-5-line"></i>Settings</a>
+            <a href="#" class="sidemenu-item"><i class="ri-flag-line"></i>Report</a>
+            <a href="#" class="sidemenu-item"><i class="ri-question-line"></i>Help</a>
+            <a href="#" class="sidemenu-item"><i class="ri-feedback-line"></i>Feedback</a>
+            </div>
+        </div>
+    
+<!-- Trending Bar -->
+
+    <div class="content">
+        <div class="btn-wrapper">
+            <div class="btn"><p>All</p></div>
+            <div class="btn"><p>Gaming</p></div>
+            <div class="btn"><p>CSS</p></div>
+            <div class="btn"><p>Carrer mode</p></div>
+            <div class="btn"><p>UEFA Champions League</p></div>
+            <div class="btn"><p>Formula 1</p></div>
+            <div class="btn"><p>EA Sports FC 24</p></div>
+            <div class="btn"><p>Editing</p></div>
+            <div class="btn"><p>KSI</p></div>
+            <div class="btn"><p>Premire league</p></div>
+            <div class="btn"><p>Call of Duty</p></div>
+            <div class="btn"><p>Fortnite</p></div>
+            <div class="btn"><p>Sidemen</p></div>
+            <div class="btn"><p>Minecraft</p></div>
+            <div class="btn"><p>Podcasts</p></div>
+            <div class="btn"><p>Live</p></div>
+            <div class="btn"><p>Mods</p></div>
+            <div class="btn"><p>Recently uploaded</p></div>
+            <div class="btn"><p>New to you</p></div>
+        </div>
+    </div>
+</div>
+
+<!-- Video Section -->
+        <div class="video-container">
+
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-1.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-1.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">SIDEMEN AMONG US CHAOS MODE: PAINFUL EDITION</h3>
+                            <div class="channel-name">MoreSidemen</div>
+                            <div class="views-upload">
+                                <div class="views">2.5M views</div>
+                                &minus;
+                                <div class="upload">1 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-2.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-2.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">I Built a Library for Everything in Minecraft</h3>
+                            <div class="channel-name">NotNotBrock</div>
+                            <div class="views-upload">
+                                <div class="views">181K views</div>
+                                &minus;
+                                <div class="upload">5 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-3.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-3.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">World's Fastest Camera Drone Vs F1 Car (ft. Max Verstappen)</h3>
+                            <div class="channel-name">Red Bull</div>
+                            <div class="views-upload">
+                                <div class="views">16M views</div>
+                                &minus;
+                                <div class="upload">3 weeks ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-4.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-4.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">Can I Make a Movie Alone?</h3>
+                            <div class="channel-name">Isaac Carlton</div>
+                            <div class="views-upload">
+                                <div class="views">292K views</div>
+                                &minus;
+                                <div class="upload">6 months ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-5.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-5.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">I'm Attempting to Transform my ENTIRE Minecraft World in Hardcore..</h3>
+                            <div class="channel-name">fWhip</div>
+                            <div class="views-upload">
+                                <div class="views">242K views</div>
+                                &minus;
+                                <div class="upload">6 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-6.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-6.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">Gordon Ramsay Spits Out His Microwaved Food | Kitchen Nightmares</h3>
+                            <div class="channel-name">Kitchen Nightmares</div>
+                            <div class="views-upload">
+                                <div class="views">7.3M views</div>
+                                &minus;
+                                <div class="upload">2 years ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-7.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-7.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">We Stayed In An Igloo For 48 Hours!</h3>
+                            <div class="channel-name">Zerkaa</div>
+                            <div class="views-upload">
+                                <div class="views">395K views</div>
+                                &minus;
+                                <div class="upload">4 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-8.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-8.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">Miniminter Reacts To W2S vs Danny Aarons</h3>
+                            <div class="channel-name">MiniminterClips</div>
+                            <div class="views-upload">
+                                <div class="views">1.1M views</div>
+                                &minus;
+                                <div class="upload">18 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-9.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-9.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">What Can £100 Get You In Thailand</h3>
+                            <div class="channel-name">NDL</div>
+                            <div class="views-upload">
+                                <div class="views">1.3M views</div>
+                                &minus;
+                                <div class="upload">1 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-10.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-10.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">Which Country Has The Best Fried Chicken?</h3>
+                            <div class="channel-name">Joshua Weissman</div>
+                            <div class="views-upload">
+                                <div class="views">1.7M views</div>
+                                &minus;
+                                <div class="upload">10 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-11.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-11.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">Here's the Thing about the M3 Macbook Air...</h3>
+                            <div class="channel-name">Marques Brownlee</div>
+                            <div class="views-upload">
+                                <div class="views">1.1M views</div>
+                                &minus;
+                                <div class="upload">13 hours ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-12.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-12.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">How Dangerous is a Slingshot?</h3>
+                            <div class="channel-name">Mike Shake</div>
+                            <div class="views-upload">
+                                <div class="views">8.3M views</div>
+                                &minus;
+                                <div class="upload">1 month ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-13.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-13.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">This E-ink Smartphone has a Crazy Camera...</h3>
+                            <div class="channel-name">JerryRigEverything</div>
+                            <div class="views-upload">
+                                <div class="views">837K views</div>
+                                &minus;
+                                <div class="upload">7 day ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container-cover">
+                <div class="video-content">
+                    <a href="#" class="video-box">
+                        <img src="images/thumbnails/thumbnail-14.webp" alt=""> 
+                    </a>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="images/channels/icon-14.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <h3 class="title">SIDEMEN WORLD'S HARDEST FOOD CHALLENGE</h3>
+                            <div class="channel-name">Sidemen</div>
+                            <div class="views-upload">
+                                <div class="views">11M views</div>
+                                &minus;
+                                <div class="upload">3 months ago</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+   
+</body>
+</html>
